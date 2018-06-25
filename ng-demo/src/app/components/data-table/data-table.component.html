@@ -1,0 +1,16 @@
+<div [style.backgroundColor]="dtBackground" style="width: 80%">
+    <h2 align="center" [style.font-family]="font">{{dtLabel}}</h2>
+
+    <table class="table" style="width: 100%">
+        <thead>
+            <tr>
+                <th [style.font-family]="font" *ngFor="let head of headerLabel">{{head}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="result-row" *ngFor="let res of locResults; let i=index " (click)="setClickedRow(i) " [class.active]="i == selectedRow">
+                <td *ngFor="let en of res.filtered">{{en.value}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

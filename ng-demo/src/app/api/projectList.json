@@ -1,0 +1,41 @@
+[{
+        "project-id": 302177,
+        "project-name": "Migrate GPS Workflow to GD&A Target Architecture",
+        "impact": "Code",
+        "status": "Green",
+        "deployment-date": "02/17/2019",
+        "project-manager": "James Anderson"
+    },
+    {
+        "project-id": 295359,
+        "project-name": "SD-WAN Speed Change MACDS",
+        "impact": "Test Only",
+        "status": "Yellow",
+        "deployment-date": "06/08/2018",
+        "project-manager": "Sachin Ganguly"
+    },
+    {
+        "project-id": 296528,
+        "project-name": "FlexWare TDM Plugin",
+        "impact": "Test Only",
+        "status": "Green",
+        "deployment-date": "06/08/2018",
+        "project-manager": "Graeme Smith"
+    },
+    {
+        "project-id": 302631,
+        "project-name": "DDoS Defense APS and Cloud Signaling",
+        "impact": "Code",
+        "status": "Green",
+        "deployment-date": "02/10/2019",
+        "project-manager": ""
+    },
+    {
+        "project-id": 300693,
+        "project-name": "Sysco Ebonding - 300693",
+        "impact": "Test Only",
+        "status": "Green",
+        "deployment-date": "10/21/2018",
+        "project-manager": "Ian Bell"
+    }
+]

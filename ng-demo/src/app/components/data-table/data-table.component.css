@@ -1,0 +1,18 @@
+th,
+td {
+    border: 1px solid #454545;
+    border-collapse: collapse;
+}
+
+.table tr.active td {
+    background-color: #a64dff !important;
+    color: white;
+}
+
+.result-row:hover {
+    background-color: #f2e6ff;
+}
+
+table {
+    font-size: 12px;
+}

@@ -1,0 +1,13 @@
+<mat-tab-group class="tabs">
+    <mat-tab label="Table 1">
+        <app-gps-data-table font="Comic Sans MS" dtLabel="Employee Details" dtDataSource="app/api/contributors.json" dtHeaderData="app/api/fullHeader.json"></app-gps-data-table>
+    </mat-tab>
+    <mat-tab label="Table 2">
+        <app-gps-data-table dtBackground="#e6f7ff" dtLabel="Employee List" dtDataSource="app/api/contributors.json" dtHeaderData="app/api/filteredHeader.json"></app-gps-data-table>
+    </mat-tab>
+    <mat-tab label="Table 3">
+        <app-gps-data-table font="Arial Black" dtBackground="#e6fff2" dtLabel="IBM Projects" dtDataSource="app/api/projectList.json" dtHeaderData="app/api/projectsHeader.json"></app-gps-data-table>
+    </mat-tab>
+</mat-tab-group>
+<br/>
+<!-- <app-itenary></app-itenary> -->

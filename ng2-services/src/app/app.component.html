@@ -1,0 +1,33 @@
+<mat-toolbar color="primary">
+    <span>{{title}}</span>
+    <mat-toolbar-row>
+        <button mat-raised-button color="accent" routerLink="/movies">Movies</button>
+        <button mat-raised-button color="accent" routerLink="/characters">Character</button>
+        <span></span>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<md-card>
+    <md-card-header>
+        <md-card-title>Trollbox</md-card-title>
+        <md-card-subtitle>Post a Rant</md-card-subtitle>
+    </md-card-header>
+    <md-card-content>
+        <form [formGroup]="trollForm" ngSubmit="createRant(trollForm.value)">
+            <md-input-container>
+                <textarea mdInput placeholder="Rant" formControlName="rant"></textarea>
+            </md-input-container>
+            <md-input-container>
+                <input mdInput placeholder="Troll" type="text" formControlName="troll">
+            </md-input-container>
+            <button md-raised-button type="Submit" [disabled]=!trollForm.valid>Post Rant</button>
+        </form>
+    </md-card-content>
+    <md-card-actions>
+    </md-card-actions>
+</md-card>
+
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,11 @@
+{
+    "id": "ID",
+    "name": "Name",
+    "age": "Age",
+    "location-city": "City",
+    "location-state": "State",
+    "role": "Position",
+    "att-uid": "Employee ID",
+    "mail": "E-mail ID",
+    "organization": "Company"
+}
